@@ -1,0 +1,30 @@
+Demonstrate your understanding of this Sprint's concepts 
+by answering the following free-form questions. 
+Edit this document to include your answers after each question. 
+Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
+
+ 1. What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+React is a UI library. 
+If the page has data that changes over time at high rates, 
+then there is a requirement for DOM updates to be very fast 
+and also reflect in other parts of the UI if they use the same data. 
+React solves this problem, without even having the page reload.
+
+ 2. What does it mean to think in react?
+
+Is to break The UI Into a component hierarchy
+always run the same function that was used for the initial 
+rendering to get the updated interface.
+
+ 3. Describe state.
+
+A state is an object that determines how that component renders and behaves.
+
+ 4. Describe props.
+In a React component, props are variables passed to it by its parent component. 
+
+ 5. What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+ A side effect is anything that affects something outside the scope of the function being executed.
+ We sync effects by passing in a dependency array as the second argument to the effect hook. 
